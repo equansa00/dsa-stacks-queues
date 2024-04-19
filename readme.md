@@ -1,46 +1,75 @@
-# Stacks & Queues Exercises
 
-This repository contains exercises for practicing stack and queue data structures.
+# Data Structures and Algorithms: Stacks and Queues
+
+This repository is dedicated to exercises and challenges involving stacks and queues, helping you master these essential data structures through practical implementation and problem-solving.
+
+## Project Structure
+
+The project is organized into two main directories:
+
+- `src`: Contains the implementation of data structures and algorithms.
+  - `algorithms`: Scripts for various algorithmic challenges.
+  - `data_structures`: Implementation of fundamental data structures like stacks, queues, and linked lists.
+- `tests`: Includes tests for each implementation to ensure correctness and stability.
 
 ## Getting Started
 
-Download the starter code from the repository.
+### Prerequisites
 
-## Exercises
+Ensure you have Node.js installed on your machine. This project uses Node.js to run JavaScript code outside a browser.
 
-### Queues
+### Installation
 
-Implement a Queue class. It should include methods for enqueuing, dequeuing, peeking, and checking if the queue is empty. Make it throw an error if you try to dequeue from an empty queue.
+Clone the repository to your local machine:
 
-### Stacks
+```bash
+git clone https://github.com/your-username/stacks-queues.git
+cd stacks-queues
+```
 
-Implement a Stack class. It should include methods for pushing, popping, peeking, and checking if the stack is empty. Make it throw an error if you try to pop from an empty stack.
+Install the necessary dependencies:
 
-### Further Study: Composition
+```bash
+npm install
+```
 
-Re-implement your classes by using a LinkedList internally to manage the data structure. Then make a new version using an array instead of a linked list. Which do you prefer?
+### Running the Tests
 
-### Further Study Build: Deque
+To ensure that the implementations work as expected, execute the tests with:
 
-For extra practice with linked lists, build a deque using a doubly-linked list. Make sure it includes all of the expected methods for a deque.
+```bash
+npm test
+```
 
-## Challenges
+This command runs all tests and outputs the results, verifying each data structure and algorithm.
 
-For these challenges, use either a stack or a queue (or a combination of both!)
+## Exercises and Challenges
 
-- Browser Back/Forward
-- String Reversal
-- Balanced Brackets?
-- Josephus Survivor
-- Calculator
+### Data Structures
 
-## Hacker Rack Challenges
+- Stacks: Implement a stack with methods for push, pop, peek, and isEmpty. Ensure exceptions are handled, such as popping from an empty stack.
+- Queues: Implement a queue with methods for enqueue, dequeue, peek, and isEmpty. Include error handling for dequeueing from an empty queue.
+- Doubly Linked List: Enhance your understanding by implementing a doubly linked list, used in more complex structures like deques.
 
-Pick and work on challenges from HackerRank:
+### Algorithmic Challenges
 
-- [Queues](https://www.hackerrank.com/domains/data-structures/queues)
-- [Stacks](https://www.hackerrank.com/domains/data-structures/stacks)
+- Browser History Simulation: Utilize two stacks to simulate browser forward and back operations.
+- String Reversal: Reverse a string using a stack to handle characters.
+- Balanced Brackets: Check if brackets in a string are balanced using a stack.
+- Josephus Problem: Solve the Josephus problem using a queue to determine the survivor's position.
+- Polish Notation Calculator: Implement a calculator that uses stack operations to evaluate expressions in Polish notation.
 
-## Solution
+## Further Enhancements
 
-See our [solution](link-to-solution).
+Experiment by reimplementing the stack and queue using a linked list and then an array. Evaluate which implementation you prefer in terms of performance and ease of use.
+
+## Contribution
+
+Feel free to fork the repository, make improvements, or add new challenges. Pull requests for enhancements are welcome.
+
+## License
+
+This project is open source and available under the MIT License.
+```
+
+This version of the README includes proper Markdown formatting for headings, code blocks, and lists.

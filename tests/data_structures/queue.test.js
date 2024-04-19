@@ -1,4 +1,4 @@
-const Queue = require("./queue");
+const Queue = require("../../src/data_structures/queue");
 
 let queue;
 
